@@ -1,0 +1,19 @@
+{
+	"name": "fc-reflect",
+	"version": "0.1.0",
+	"description": "Collection of serializers for FC and C++ types",
+	"main": "lib/index.js",
+	"author": "NickLatkovich",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+    "@types/bytebuffer": "^5.0.42",
+    "bytebuffer": "^5.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
